@@ -1,0 +1,106 @@
+
+.item1{grid-area: n1;}
+.item2{grid-area: n2;}
+.item3{grid-area: n3;}
+.item4{grid-area: n4;}
+.item5{grid-area: n5;}
+.item6{grid-area: n6;}
+.item7{grid-area: n7;}
+.item8{grid-area: n8;}
+.item9{grid-area: n9;}
+.item10{grid-area: n10;}
+.item11{grid-area: n11;}
+.item12{grid-area: n12;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'n1 n1 n2 n3'
+    'n1 n1 n2 n4'
+    'n5 n6 n7 n7'
+    'n8 n9 n10 n11'
+    'n12 - - -'
+    ;
+    grid-gap: 10px;
+    padding: 10px;
+    height: 300vh;
+    background-color: rgb(214, 151, 162);
+    
+}
+
+.grid-container>div{
+    background-color: rgb(186, 170, 201);
+    padding: 20PX 0px;
+    font-size: 16px;
+}
+
+
+.card{
+    border-radius: 6px;
+    justify-content: center;
+    
+}
+
+
+.item1{
+    background-image: url(images/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item2{
+    background-image: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item3{
+    background-image: url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item4{
+    background-image: url(images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item5{
+    background-image: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item6{
+    background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item7{
+    background-image: url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item8{
+    background-image: url(images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item9{
+    background-image: url(images/9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item10{
+    background-image: url(images/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item11{
+    background-image: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item12{
+    background-image: url(images/17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
